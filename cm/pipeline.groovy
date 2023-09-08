@@ -1,13 +1,13 @@
-import org.finra.appeng.f3.builders.*
-import org.finra.appeng.f3.common.*
+import org._____.appeng.f3.builders.*
+import org._____.appeng.f3.common.*
 
 class ProvisionComponent extends CommonImpl {
 
     private static String AGS                        = "DIVER"
     private static String COMPONENT                  = "Performance"
     private static String DIRECTORY                  = "Testing/Performance"
-    private static String GIT_REPOSITORY             = "ssh://git@bitbucket.finra.org:7999/diver/test-api-diver.git"
-    private static List<String> EMAIL                = ["DL-DIVER@finra.org"]
+    private static String GIT_REPOSITORY             = "ssh://git@bitbucket._____.org:7999/diver/test-api-diver.git"
+    private static List<String> EMAIL                = ["DL-DIVER@_____.org"]
 
     private static String BUILD_LABEL                = "amznlinux2_ci:latest"
     private static String CHECK_LABEL                = "amznlinux2_cd:latest"
@@ -18,7 +18,7 @@ class ProvisionComponent extends CommonImpl {
     private static String EXECUTE_FOLDER             = "${JOBS_FOLDER}/EXECUTE/${COMPONENT_UPPER}"
     private static String ROOT_JOB                   = "${JOBS_FOLDER}/${COMPONENT_UPPER}"
     private static String INITIAL_JOB                = "${COMPONENT_UPPER}"
-    private static String JENKINS_THEME              = "https://bitbucket.finra.org/users/khmarskv/repos/jenkins-style/raw/css/jenkins-muted.css"
+    private static String JENKINS_THEME              = "https://bitbucket._____.org/users/khmarskv/repos/jenkins-style/raw/css/jenkins-muted.css"
     private static String CM_BUILD_FILE              = "build.sh"
     private static String SCRIPT_PATH                = ". release/${CM_BUILD_FILE}"
     private static String CM_FOLDER                  = "test-performance-diver/cm"
@@ -29,7 +29,7 @@ class ProvisionComponent extends CommonImpl {
     private static List<String> QA                   = ["QA"]
     private static List<String> PRODY                = ["PRODY"]
 
-    def suffix = [DEV:".diver.dev.finra.org", QA:".diver.qa.finra.org", PRODY: ".diver.pa.finra.org"]
+    def suffix = [DEV:".diver.dev._____.org", QA:".diver.qa._____.org", PRODY: ".diver.pa._____.org"]
 
     ECSLabel generateEcsLabel(String image, String cluster, Integer memory) {
         return ECSLabel.newInstance()
