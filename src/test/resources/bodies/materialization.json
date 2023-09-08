@@ -1,0 +1,14 @@
+{
+  "category":"EQTY",
+  "recordTypes":["utpt", "fo", "mpq", "utpl", "isg", "cqsl", "eo", "qe"],
+  "fromDate":"2020-07-28",
+  "toDate":"2020-07-28",
+  "accessPattern":null,
+  "fromTime":"10:00:00",
+  "toTime":"23:59:59",
+  "issueSym":"aapl",
+  "firmMpId":"",
+  "allRelatedFirms":false,
+  "tags":["diver-rs"],
+  "preFilters":null
+}

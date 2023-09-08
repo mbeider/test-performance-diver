@@ -1,0 +1,487 @@
+{
+  "contentType": "excel",
+  "artifactName": "QA_RELQA_30_Bulk",
+  "fields": [],
+  "requests": [
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:59",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-001"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:58",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-002"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:57",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-003"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:56",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-004"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:55",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-005"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:54",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-006"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:53",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-007"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:52",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-008"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:51",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-009"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:50",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-010"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:49",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-011"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2019-01-02",
+      "toDate": "2019-01-02",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:59",
+      "issueSym": "X",
+      "issueId": "",
+      "firmMpId": "",
+      "allRelatedFirms": false,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-012"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2018-01-11",
+      "toDate": "2018-01-11",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:59",
+      "issueSym": "",
+      "issueId": "",
+      "firmMpId": "",
+      "allRelatedFirms": false,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-013"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2018-01-11",
+      "toDate": "2018-01-11",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:58",
+      "issueSym": "",
+      "issueId": "",
+      "firmMpId": "",
+      "allRelatedFirms": false,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-014"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2018-01-11",
+      "toDate": "2018-01-11",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:57",
+      "issueSym": "",
+      "issueId": "",
+      "firmMpId": "",
+      "allRelatedFirms": false,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-015"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:59",
+      "issueSym": "pff",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-016"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:58",
+      "issueSym": "pff",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-017"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:57",
+      "issueSym": "pff",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-018"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:56",
+      "issueSym": "pff",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-019"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:55",
+      "issueSym": "pff",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-020"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "11:00:00",
+      "toTime": "11:02:00",
+      "issueSym": "",
+      "issueId": "",
+      "firmMpId": "MSCO",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-021"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "11:00:00",
+      "toTime": "11:02:01",
+      "issueSym": "",
+      "issueId": "",
+      "firmMpId": "MSCO",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-022"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "11:00:00",
+      "toTime": "11:02:02",
+      "issueSym": "",
+      "issueId": "",
+      "firmMpId": "MSCO",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-023"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "11:00:00",
+      "toTime": "11:02:03",
+      "issueSym": "",
+      "issueId": "",
+      "firmMpId": "MSCO",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-024"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "11:00:00",
+      "toTime": "11:02:04",
+      "issueSym": "",
+      "issueId": "",
+      "firmMpId": "MSCO",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-025"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "11:00:00",
+      "toTime": "11:02:05",
+      "issueSym": "",
+      "issueId": "",
+      "firmMpId": "MSCO",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-026"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "11:00:00",
+      "toTime": "11:02:06",
+      "issueSym": "",
+      "issueId": "",
+      "firmMpId": "MSCO",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-027"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:58",
+      "issueSym": "IYH",
+      "issueId": "",
+      "firmMpId": "",
+      "allRelatedFirms": false,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-028"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:57",
+      "issueSym": "IYH",
+      "issueId": "",
+      "firmMpId": "",
+      "allRelatedFirms": false,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-029"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:56",
+      "issueSym": "IYH",
+      "issueId": "",
+      "firmMpId": "",
+      "allRelatedFirms": false,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-030"
+    }
+  ]
+}
