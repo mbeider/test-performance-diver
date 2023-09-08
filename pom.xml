@@ -16,10 +16,6 @@
 		<maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
 		<scala-maven-plugin.version>4.4.0</scala-maven-plugin.version>
 		<net.liftweb.version>3.5.0</net.liftweb.version>
-<!--		<tcore.service.version>1.0.3-SNAPSHOT</tcore.service.version>-->
-<!--		<tcore.web.version>1.0.3-SNAPSHOT</tcore.web.version>-->
-<!--		<tcore.data.version>1.0.3-SNAPSHOT</tcore.data.version>-->
-<!--		<aws.version>1.11.767</aws.version>-->
 	</properties>
 
 	<dependencyManagement>
