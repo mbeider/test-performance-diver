@@ -82,21 +82,6 @@
 			<artifactId>lift-json_2.13</artifactId>
 			<version>${net.liftweb.version}</version>
 		</dependency>
-<!--		<dependency>-->
-<!--			<groupId>org.finra</groupId>-->
-<!--			<artifactId>tcore-service</artifactId>-->
-<!--			<version>${tcore.service.version}</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>org.finra</groupId>-->
-<!--			<artifactId>tcore-web</artifactId>-->
-<!--			<version>${tcore.web.version}</version>-->
-<!--		</dependency>-->
-<!--		<dependency>-->
-<!--			<groupId>org.finra</groupId>-->
-<!--			<artifactId>tcore-data</artifactId>-->
-<!--			<version>${tcore.data.version}</version>-->
-<!--		</dependency>-->
 	</dependencies>
 
 	<build>
