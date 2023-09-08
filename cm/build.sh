@@ -71,7 +71,7 @@ fip_access_token() {
   BASE_64_AUTH=$(echo -n $1:$2 | base64)
   FIP_SERVER_URL=$(aws ssm get-parameters --names "/share/FIP/isso/${FIP_SDLC}/fipServerUrl" --region us-east-1 --output text --query "Parameters[0].Value")
   echo $(curl --location --request POST ${FIP_SERVER_URL}'/rest/isso/oauth2/access_token?grant_type=client_credentials' --header 'Authorization: Basic '${BASE_64_AUTH} | jq -r '.access_token') # dHN0X21hdF91c2VyMTpWU3Bic0tYbXlBVGozeHo0TzR6SWE4bFE=
-  # curl --location --request POST 'https://isso-devint.fip.dev.finra.org/fip/rest/isso/oauth2/access_token?grant_type=client_credentials' --header 'Authorization: Basic dHN0X21hdF91c2VyMTpWU3Bic0tYbXlBVGozeHo0TzR6SWE4bFE='
+  # curl --location --request POST 'https://isso-devint.fip.dev._____.org/fip/rest/isso/oauth2/access_token?grant_type=client_credentials' --header 'Authorization: Basic dHN0X21hdF91c2VyMTpWU3Bic0tYbXlBVGozeHo0TzR6SWE4bFE='
 }
 
 exit_error() {
@@ -132,8 +132,8 @@ deploy_job(){
   echo "Branch name is ${GIT_BRANCH}"
 
   case "$SDLC" in
-      PRODY)  echo "URL: https://diver-ecs-${STACK_NAME}.diver.pa.finra.org";;
-      *) echo "URL: https://diver-ecs-${STACK_NAME}.diver.${sdlc}.finra.org";;
+      PRODY)  echo "URL: https://diver-ecs-${STACK_NAME}.diver.pa._____.org";;
+      *) echo "URL: https://diver-ecs-${STACK_NAME}.diver.${sdlc}._____.org";;
   esac
 
   echo "-------------------------------------------"
@@ -153,8 +153,8 @@ deploy_job(){
   echo "Executing Gatling test"
   echo "-------------------------------------------"
   case "$SDLC" in
-      PRODY)  $MAVEN -s ${WORKSPACE}/release/settings.xml gatling:test -DbaseUrl="https://diver-ecs-${STACK_NAME}.diver.pa.finra.org" -Dusers=${USERS_COUNT} -Dthreshold=${THRESHOLD} -Drampup=${RAMPUP_DURATION} -Dthroughput=${THROUGH_PUT} -DuserName=${USER} -Dtoken=${USER_TOKEN} -Dags=DIVER -Dsdlc=${credSDLC};;
-      *) $MAVEN -s ${WORKSPACE}/release/settings.xml gatling:test -DbaseUrl="https://diver-ecs-${STACK_NAME}.diver.${sdlc}.finra.org" -Dusers=${USERS_COUNT} -Dthreshold=${THRESHOLD} -Drampup=${RAMPUP_DURATION} -Dthroughput=${THROUGH_PUT} -DuserName=${USER} -Dtoken=${USER_TOKEN} -Dags=DIVER -Dsdlc=${credSDLC};;
+      PRODY)  $MAVEN -s ${WORKSPACE}/release/settings.xml gatling:test -DbaseUrl="https://diver-ecs-${STACK_NAME}.diver.pa._____.org" -Dusers=${USERS_COUNT} -Dthreshold=${THRESHOLD} -Drampup=${RAMPUP_DURATION} -Dthroughput=${THROUGH_PUT} -DuserName=${USER} -Dtoken=${USER_TOKEN} -Dags=DIVER -Dsdlc=${credSDLC};;
+      *) $MAVEN -s ${WORKSPACE}/release/settings.xml gatling:test -DbaseUrl="https://diver-ecs-${STACK_NAME}.diver.${sdlc}._____.org" -Dusers=${USERS_COUNT} -Dthreshold=${THRESHOLD} -Drampup=${RAMPUP_DURATION} -Dthroughput=${THROUGH_PUT} -DuserName=${USER} -Dtoken=${USER_TOKEN} -Dags=DIVER -Dsdlc=${credSDLC};;
   esac
 }
 
