@@ -1,6 +1,6 @@
 # Gatling Performance Framework
 
-`git clone https://bitbucket.finra.org/scm/diver/test-api-diver.git`
+`git clone https://github.com/mbeider/test-performance-diver.git`
 
 ### Installation
 
