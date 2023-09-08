@@ -1,0 +1,55 @@
+{
+  "contentType": "excel",
+  "artifactName": "QA_RELQA_03_Bulk",
+  "fields": [],
+  "requests": [
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:59",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-001"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:58",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-002"
+    },
+    {
+      "recordTypes": [
+        "oet"
+      ],
+      "fromDate": "2015-08-24",
+      "toDate": "2015-08-24",
+      "fromTime": "00:00:00",
+      "toTime": "23:59:57",
+      "issueSym": "celg",
+      "issueId": "",
+      "firmMpId": "NITE",
+      "allRelatedFirms": true,
+      "useOatsProcessingDate": false,
+      "preFilters": null,
+      "tags": "User_1_relqa-003"
+    }
+  ]
+}
